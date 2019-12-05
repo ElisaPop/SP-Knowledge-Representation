@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a97acf-3b34-4c63-8e81-c8cf20e3e82e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subjectQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/subjectQuery.py" afterDir="false" />
     </list>
@@ -33,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.query_operations">
+  <component name="RunManager" selected="Python.game">
     <configuration name="0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KnowledgeRepresentation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.game" />
         <item itemvalue="Python.query_operations" />
         <item itemvalue="Python.subjectQuery" />
-        <item itemvalue="Python.game" />
         <item itemvalue="Python.0" />
         <item itemvalue="Python.Car" />
       </list>
@@ -172,25 +172,41 @@
       <option name="presentableId" value="Default" />
       <updated>1573881495929</updated>
     </task>
+    <task id="LOCAL-00001" summary="Entropy queries working">
+      <created>1575581163998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575581163998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entropy queries working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entropy queries working" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1575581039182">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1575581162497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575581039182" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1575581039182">
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575581162497" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1575587433783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575581039182" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1575581039182">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1575587433783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575581039182" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1575581039182">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1575587433783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575581039182" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1575587433783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
     <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1575573240651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

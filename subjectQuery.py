@@ -81,9 +81,8 @@ def printEntropy(subClass):
         newString1 = re.sub(r'[0-9]+', '', newString)
         newString1 = newString1.replace('Wikicat ','')
         newString1 = newString1.replace('Plants', 'Plant')
-        entropy_dictionary[subClass] = {'name' : newString1, 'entropy' : nrRes}
-    #else:
-        #print('%s has no entropy' % (subClass))
+        entropy_dictionary[newString1] = nrRes
+
 
 print(nrResults("PoisonousPlant113100156"))
 print(getAllPlants())

@@ -1,21 +1,20 @@
 import query_operations as qo
 
-entropy_dictionary = qo.get_entropies()
 
 def askQuestion():
+    ordered_dictionary = qo.get_entropies()
+    item = next(reversed(ordered_dictionary))
 
+    print(ordered_dictionary.items())
 
-    #second_word = (k[0][1] for k, v  in entropy_dictionary if word == k[0][0])
-
-
-    print("Is the plant a " + list(entropy_dictionary.keys())[-1] + "?")
+    print("Is the plant a " + ordered_dictionary.get(item).get('name') + "?")
     answer = str(input())
-    # if(answer == 'Y'):
-    #     qo.append_exists()
-    # else:
-    #     qo.append_not_exists()
+    if (answer == 'Y'):
+        qo.append_exists(item)
+    else:
+        qo.append_not_exists(item)
 
 
-
-if __name__ == "__main__" :
-    askQuestion()
+if __name__ == "__main__":
+    while True:
+        askQuestion()
