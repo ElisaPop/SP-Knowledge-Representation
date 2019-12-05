@@ -29,7 +29,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-entropyDictionary = dict()
+entropy_dictionary = dict()
 
 stringPart1 = """SELECT DISTINCT ?org WHERE {
     ?org rdfs:subClassOf yago:Plant100017222 .
@@ -55,6 +55,9 @@ def nrResults(subClass):
     # return resultsString
     return resultsString[resultsString.find("'value': '") + 10: resultsString.find("'}}]") ]
 
+def nrNonResults(subClass):
+    return 0
+
 def getAllPlants():
     sparql.setQuery("""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -70,6 +73,7 @@ def getAllPlants():
 
 def printEntropy(subClass):
     nrRes = int(nrResults(subClass))
+    nrNonRes = int(nrNonResults(subClass))
     if nrRes != 0:
 
         import re
@@ -77,7 +81,7 @@ def printEntropy(subClass):
         newString1 = re.sub(r'[0-9]+', '', newString)
         newString1 = newString1.replace('Wikicat ','')
         newString1 = newString1.replace('Plants', 'Plant')
-        entropyDictionary[newString1] = nrRes
+        entropy_dictionary[subClass] = {'name' : newString1, 'entropy' : nrRes}
     #else:
         #print('%s has no entropy' % (subClass))
 
@@ -104,7 +108,7 @@ for result in results:
         printEntropy(resultString[startPosition+5 : endPosition])
 
 import operator
-sortedEntropy = sorted(entropyDictionary.items(), key=operator.itemgetter(1))
+sortedEntropy = sorted(entropy_dictionary.items(), key=operator.itemgetter(1))
 
 for key,value in dict(sortedEntropy).items() :
     print(key,value)
