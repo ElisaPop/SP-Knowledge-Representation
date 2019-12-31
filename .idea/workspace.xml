@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a97acf-3b34-4c63-8e81-c8cf20e3e82e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subjectQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/subjectQuery.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager" selected="Python.game">
     <configuration name="0" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -179,37 +179,97 @@
       <option name="project" value="LOCAL" />
       <updated>1575581163998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First question can be asked&#10;The dictionary doesn't update afterwards">
+      <created>1575588048511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575588048511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entropy queries working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entropy queries working" />
+    <MESSAGE value="First question can be asked&#10;The dictionary doesn't update afterwards" />
+    <option name="LAST_COMMIT_MESSAGE" value="First question can be asked&#10;The dictionary doesn't update afterwards" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1575581162497">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1575588047182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575581162497" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1575587433783">
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575588047182" />
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1577800136229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1575587433783">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575940948808" />
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577800136229" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1577800136229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1575587433783">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575940948808" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577800136229" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1577800136229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1575587433783">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575940948808" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577800136229" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1577800136229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575587433783" />
-    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1575573240651">
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575940948808" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577800136229" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1577576929716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575573240651" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575673185494" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577576929716" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1577576929716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575673185493" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577576929716" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1577576929716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575673185493" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577576929716" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1577576929716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575673185493" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577576929716" />
+    <state x="536" y="122" key="RollbackChangesDialog" timestamp="1577756562556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="536" y="122" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577756562556" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1575610643990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575610643990" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1577567208234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1577567208234" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1577725720811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.36.1680.1010@0.0.1536.824" timestamp="1575939054938" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577725720811" />
+    <state x="341" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577567734952">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="147" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1577567734952" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
